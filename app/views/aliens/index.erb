@@ -1,0 +1,8 @@
+<h1>👽 hello were the aliens 👽</h1>
+<ul>
+
+  <% @aliens.each do |alien| %>
+    <li><%= link_to alien.name, alien_path(alien) %></li>
+  <% end %>
+
+</ul>

@@ -1,0 +1,10 @@
+<h1>an alien?!</h1>
+<%= form_for @alien do |f| %>
+  <%= f.label 'name' %>
+  <%= f.text_field :name %>
+  <%= f.label 'planet' %>
+  <%= f.text_field :planet %>
+  <%= f.label 'favorite food' %>
+  <%= f.text_field :favorite_food %>
+  <%= f.submit %>
+<% end %>
