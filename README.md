@@ -1,3 +1,5 @@
+to do: 
+
 '*'
 - color scheme
 -background image
@@ -14,3 +16,9 @@ aliens#show
 
 abductions#new
 - make it pretty
+
+resources used:
+
+http://colormind.io/
+https://fonts.google.com/
+https://codepen.io
