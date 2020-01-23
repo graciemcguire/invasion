@@ -1,3 +1,20 @@
 // Place all the styles related to the Abductions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.forms {
+  background-color: #BF44A3;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.forms input {
+  padding:  20px;
+  font-size: 30px;
+  margin: 10px;
+}
+select {
+  font-size: 30px;
+  margin: 10px;
+}

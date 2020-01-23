@@ -4,6 +4,7 @@ class CreateChickens < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :flavor
       t.integer :age
+      t.string :image
 
       t.timestamps
     end

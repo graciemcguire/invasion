@@ -33,7 +33,7 @@ class AliensController < ApplicationController
   private
 
   def alien_params
-    params.require(:alien).permit(:name, :planet, :favorite_food)
+    params.require(:alien).permit(:name, :planet, :favorite_food, :image)
   end
 
   def find_alien

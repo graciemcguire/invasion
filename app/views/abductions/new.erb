@@ -1,5 +1,5 @@
 <h1>ANOTHER ABDUCTION!?</h1>
-<%= form_for @abduction do |f| %>
+<%= form_for @abduction, html: {class: "forms"} do |f| %>
   <%= f.label 'location' %>
   <%= f.text_field :location %>
   <%= f.collection_select :alien_id, @aliens, :id, :name %>

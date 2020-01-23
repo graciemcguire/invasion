@@ -4,6 +4,7 @@ class CreateAliens < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :planet
       t.string :favorite_food
+      t.string :image
 
       t.timestamps
     end

@@ -1,3 +1,94 @@
 // Place all the styles related to the Aliens controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+  font-family: 'ZCOOL QingKe HuangYou', cursive !important;
+}
+
+h1 {
+  text-align: center;
+  color: #E5E2D3;
+}
+
+h3 {
+  text-align: center;
+  color: #E5E2D3;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  // cursor: none;
+}
+
+
+.alien-image {
+  width: 90%;
+  border-radius: 500px;
+  border: 10px solid black;
+}
+
+
+.alien-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.alien-card {
+
+  margin: 15px;
+  border-radius: 40px;
+  padding: 10px;
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8FA981;
+  transition: 0.8s;
+}
+
+
+
+.alien-card:hover {
+  transform: scale(1.5)
+}
+
+.alien-show {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.alien-image-show {
+  width: 50%;
+  border: 20px solid #68896F;
+  margin: 53px;
+}
+
+.alien-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 100px;
+  width: 200px;
+  background-color: #BF44A3;
+  font-size: 15px;
+  border-radius: 43px;
+  border: 8px #E5E2D1 solid;
+}

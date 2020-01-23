@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_01_15_204311) do
     t.string "name"
     t.string "planet"
     t.string "favorite_food"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(version: 2020_01_15_204311) do
     t.string "name"
     t.string "flavor"
     t.integer "age"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

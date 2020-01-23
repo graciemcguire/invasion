@@ -1,4 +1,11 @@
-<%= @alien.name %>
-<%= @alien.planet %>
-<%= @alien.favorite_food %>
-<%= button_to 'kill it with faaar! 🔥', alien_path(@alien), method: :delete %>
+<div class="alien-show">
+  <img class='alien-image-show' src=<%= @alien.image %> alt<%= @alien.name %>>
+  <div class="alien-info">
+    <h1><%= @alien.name %></h1>
+    <h3>PLANET: <%= @alien.planet %></h3>
+    <h3>FAVORITE FOOD: <%= @alien.favorite_food %></h3>
+    <%= button_to 'kill it with faaar! 🔥', alien_path(@alien), {:class => "button", method: :delete} %>
+  </div>
+</div>
+
+<%# <%= button_to "Show Me", {:controller => 'personal', :action => "add" }, {:class => "buttonTo" } %> %>

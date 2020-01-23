@@ -1,0 +1,9 @@
+<h1>🐔 calling all chickens 🐔</h1>
+<ul>
+
+  <% @chickens.each do |chicken| %>
+    <img src='<%= chicken.image %>', alt= <%= chicken.name %> />
+    <li><%= link_to chicken.name, chicken_path(chicken) %></li>
+  <% end %>
+
+</ul>

@@ -1,24 +1,16 @@
-# README
+'*'
+- color scheme
+-background image
+-change the font(s)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+aliens#index
+- make all the images the same size
+- make each alien a card
+- each card will have name/image centered
 
-Things you may want to cover:
+aliens#show
+- image on left
+- info on right (name, planet, fav_food)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+abductions#new
+- make it pretty

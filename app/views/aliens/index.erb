@@ -1,8 +1,11 @@
 <h1>👽 hello were the aliens 👽</h1>
-<ul>
+<div class="alien-index">
 
   <% @aliens.each do |alien| %>
-    <li><%= link_to alien.name, alien_path(alien) %></li>
+  <a href=<%= "/aliens/" + alien.id.to_s %>  class="alien-card">
+    <img class="alien-image" src='<%= alien.image %>', alt= <%= alien.name %> />
+    <p><%= alien.name %></p>
+  </a>
   <% end %>
 
-</ul>
+</div>
