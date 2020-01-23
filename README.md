@@ -19,6 +19,8 @@ abductions#new
 
 resources used:
 
-http://colormind.io/
-https://fonts.google.com/
-https://codepen.io
+- http://colormind.io/
+
+- https://fonts.google.com/
+
+- https://codepen.io
